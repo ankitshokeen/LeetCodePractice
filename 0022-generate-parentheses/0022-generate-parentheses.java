@@ -18,6 +18,8 @@ class Solution {
             sol(n, p + ')', open, close +1, ans);
         }
         
+        
+        // backtrack
         p = "";
         open = 0;
         close = 0;
